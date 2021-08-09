@@ -23,8 +23,15 @@ const Detail = (props) => {
             }
     }
          
+    const fetchTopRated = async () => {       
+        const topRated = await axios.get(`/api/top-rated/detail/${_id}`)
+          if (topRated.data) {
+              setMovie(topRated.data);
+          }
+  }
         fetchActionMovie();
         fetchNetflixOriginals();
+        fetchTopRated();
     }, [_id]);  // Updating the state based on the 'id'
 
     return (

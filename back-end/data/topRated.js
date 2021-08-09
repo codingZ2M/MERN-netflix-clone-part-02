@@ -1,6 +1,5 @@
 const topRated = [
     {
-        "id": 21,
         "original_language": "en",
         "original_title": "The Shawshank Redemption",
         "poster_path": "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
@@ -9,12 +8,12 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.3,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 22,
+        "numReviews": 20
+        },
+        
+        {
         "original_language": "en",
         "original_title": "Gabriel's Inferno Part II",
         "poster_path": "https://image.tmdb.org/t/p/original/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
@@ -23,12 +22,13 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.7,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 23,
+        "numReviews": 20
+        },
+        
+        
+        {
         "original_language": "en",
         "original_title": "Gabriel's Inferno Part III",
         "poster_path": "https://image.tmdb.org/t/p/original/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg",
@@ -37,12 +37,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.7,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 24,
+        "numReviews": 14
+        },
+        
+        
+        
+        {
         "original_language": "en",
         "original_title": "Gabriel's Inferno",
         "poster_path": "https://image.tmdb.org/t/p/original/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
@@ -51,12 +53,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.6,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 25,
+        "numReviews": 11
+        },
+        
+        
+        
+        {
         "original_language": "en",
         "original_title": "The Green Mile",
         "poster_path": "https://image.tmdb.org/t/p/original/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
@@ -65,12 +69,15 @@ const topRated = [
         "adult": false,
         "backdrop_path": "https://image.tmdb.org/t/p/original/5Nz25DPXfQaSpDgce42Y3kFg9G4.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.5,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 26,
+        "numReviews": 12
+        },
+        
+        
+        
+        
+        {
         "original_language": "en",
         "original_title": "Wolfwalkers",
         "poster_path": "https://image.tmdb.org/t/p/original/uRkDrsKwCCZC9zdHZs2CFTt1ATZ.jpg",
@@ -79,12 +86,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.5,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 27,
+        "numReviews": 13
+        },
+        
+        
+        
+        {
         "original_language": "en",
         "original_title": "Life in a Year",
         "poster_path": "https://image.tmdb.org/t/p/original/bP7u19opmHXYeTCUwGjlLldmUMc.jpg",
@@ -93,12 +102,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/88J6waYVTta8Qz3iX3qUeWNA5d5.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.7,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 28,
+        "numReviews": 15
+        },
+        
+        
+        
+        {
         "original_language": "en",
         "original_title": "12 Angry Men",
         "poster_path": "https://image.tmdb.org/t/p/original/7sf9CgJz30aXDvrg7DYYUQ2U91T.jpg",
@@ -107,12 +118,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.7,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 29,
+        "numReviews": 16
+        },
+        
+        
+        
+        {
         "original_language": "es",
         "original_title": "Dedicada a mi ex",
         "poster_path": "https://image.tmdb.org/t/p/original/riAooJrFvVhotyaOgoI0WR7okSe.jpg",
@@ -121,12 +134,14 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 8.5,
-        "type": "Top Rated"
-    },
-
-    {
-        "id": 30,
+        "numReviews": 17
+        },
+        
+        
+        
+        {
         "original_language": "ja",
         "original_title": "Pulp Fiction",
         "poster_path": "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
@@ -135,9 +150,11 @@ const topRated = [
         "adult": true,
         "backdrop_path": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
         "media_type": "movie",
+        "type": "Top Rated",
         "rating": 7.9,
-        "type": "Top Rated"
-    },
+        "numReviews": 18
+        },
+        
 ]
 
 module.exports = topRated  // exporting it using common JS

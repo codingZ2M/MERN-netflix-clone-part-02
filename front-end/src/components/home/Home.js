@@ -23,7 +23,7 @@ const Home = (props) => {
             const [actionsMoives, netflixOriginals, topRatedMovies, trendingMovies] = await Promise.all([
                 await axios.get('/api/action-movies'),
                 await axios.get('/api/netflix-originals'),
-              // await axios.get('/api/top-rated-movies'),
+              await axios.get('/api/top-rated'),
               //  await axios.get('/api/trending-movies'),
              
             ]);
@@ -32,7 +32,7 @@ const Home = (props) => {
                 setMovies({
                     actions: actionsMoives.data,
                     netflixOriginals: netflixOriginals.data,
-                  //  topRated: topRatedMovies.data,
+                    topRated: topRatedMovies.data,
                   //  trending: trendingMovies.data,
                 })
             );

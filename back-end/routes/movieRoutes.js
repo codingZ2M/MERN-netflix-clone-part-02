@@ -3,7 +3,8 @@ const asyncHandler = require('express-async-handler')
 const bodyParser = require('body-parser');
 
 const ActionMovie = require('../models/actionMovie')
-const NetflixOriginal = require('../models/netflixOriginal')
+const NetflixOriginal = require('../models/netflixOriginal');
+const TopRated = require('../models/topRated');
 
 const movieRoutes = express.Router()
 movieRoutes.use(bodyParser.json());
@@ -43,6 +44,24 @@ movieRoutes.get('/api/netflix-originals/detail/:id', asyncHandler( async (reques
            response.status(404).json({message: 'Netflix Original is not found!'})
        }
 }) )
+
+
+movieRoutes.get('/api/top-rated', asyncHandler (async (request, response) => {
+    const topRatedMovies = await TopRated.find({})
+    response.json(topRatedMovies);  // converting into JSON content type
+}) )
+
+movieRoutes.get('/api/top-rated/detail/:id', asyncHandler( async (request, response) => {
+   const topRatedMovie = await TopRated.findById(request.params.id)
+       if(topRatedMovie) {
+           response.json(topRatedMovie);  // converting into JSON content type
+       }
+       else {
+           response.status(404).json({message: 'Action Movie is not found!'})
+       }
+}) )
+
+
 
 movieRoutes.post('/api/action-movie', asyncHandler( async (request, response) => {
 

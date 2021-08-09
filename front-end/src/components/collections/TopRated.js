@@ -13,8 +13,7 @@ const TopRated = (props) => {
             {
                     movies && movies.map( (movie, key) => (
                         <Wrap key={key}  >
-                            {movie.id}
-                            <Link to={'/detail/' + movie.id}>
+                            <Link to={'/detail/' + movie._id}>
                                 <img src={movie.poster_path} alt={movie.original_title} />
                             </Link>
                         </Wrap>
